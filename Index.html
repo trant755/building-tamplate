@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/fonts/Gilroy/stylesheet.css" rel="stylesheet" />
+    <link href="normalize.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Company name</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <button class="header__menu-toggle" aria-label="Toggle menu">
+          <span class="header__menu-icon"></span>
+        </button>
+        <div class="header__logo">
+          <img src="./assets/img/Logo.png" alt="Company name" />
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                Projects
+                <span class="header__nav-arrow">
+                  <svg width="8" height="5" viewBox="0 0 8 5" fill="inherit">
+                    <path
+                      opacity="0.8"
+                      d="M6.13313 0L7.2998 1.25L3.7998 5L0.299805 1.25L1.46647 0L3.7998 2.49994L6.13313 0Z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">About company</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Cooperation</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__language-switcher">
+          <button class="header__language-button active">EN</button>
+          <button class="header__language-button">UA</button>
+          <button class="header__language-button">FR</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__title-wrapper">
+            <p class="hero__subtitle">
+              Lorem Ipsum is simply dummy text of the printing
+            </p>
+            <h1 class="hero__title">Company<br />Name</h1>
+          </div>
+          <div class="hero__property-select">
+            <p class="hero__property-select-title">
+              Lorem Ipsum is <br />
+              simply dummy text of the printing
+              <span>and typesetting</span>
+              industry.
+            </p>
+            <a class="hero__property-select-link" href="#">Select property</a>
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <div class="container projects__container">
+          <h2 class="projects__title">Our projects</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="project swiper-slide">
+                <img
+                  src="./assets/img/project-1.png"
+                  alt="Project 1"
+                  class="project__image"
+                />
+                <div class="project__info">
+                  <div>
+                    <p class="project__info-subtitle">Villa</p>
+                    <h3 class="project__info-title">Lorem Ipsum</h3>
+                  </div>
+                  <a href="#" class="project__info-link">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M-4.68531e-07 14.2812L18.6813 14.2812L10.1063 22.8562L12.25 25L24.5 12.75L12.25 0.499998L10.1062 2.64375L18.6813 11.2187L-6.02398e-07 11.2187L-4.68531e-07 14.2812Z"
+                        fill="#272727"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/img/project-2.png"
+                  alt="Project 2"
+                  class="project__image"
+                />
+                <div class="project__info">
+                  <div>
+                    <p class="project__info-subtitle">Villa</p>
+                    <h3 class="project__info-title">Lorem Ipsum</h3>
+                  </div>
+                  <a href="#" class="project__info-link">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M-4.68531e-07 14.2812L18.6813 14.2812L10.1063 22.8562L12.25 25L24.5 12.75L12.25 0.499998L10.1062 2.64375L18.6813 11.2187L-6.02398e-07 11.2187L-4.68531e-07 14.2812Z"
+                        fill="#272727"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide project--gradient">
+                <img
+                  src="./assets/img/project-3.jpeg"
+                  alt="Project 3"
+                  class="project__image project__image--gradient"
+                />
+                <div class="project__info">
+                  <div>
+                    <p class="project__info-subtitle">Appartments</p>
+                    <h3 class="project__info-title">Lorem Ipsum</h3>
+                  </div>
+                  <a href="#" class="project__info-link">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M-4.68531e-07 14.2812L18.6813 14.2812L10.1063 22.8562L12.25 25L24.5 12.75L12.25 0.499998L10.1062 2.64375L18.6813 11.2187L-6.02398e-07 11.2187L-4.68531e-07 14.2812Z"
+                        fill="#272727"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="./assets/img/project-4.jpg"
+                  alt="Project 4"
+                  class="project__image"
+                />
+                <div class="project__info">
+                  <div>
+                    <p class="project__info-subtitle">Villa</p>
+                    <h3 class="project__info-title">Lorem Ipsum</h3>
+                  </div>
+                  <a href="#" class="project__info-link">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M-4.68531e-07 14.2812L18.6813 14.2812L10.1063 22.8562L12.25 25L24.5 12.75L12.25 0.499998L10.1062 2.64375L18.6813 11.2187L-6.02398e-07 11.2187L-4.68531e-07 14.2812Z"
+                        fill="#272727"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project__image"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-controllers">
+            <div class="swiper-button-prev">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 14.2812L6.31875 14.2812L14.8937 22.8562L12.75 25L0.499999 12.75L12.75 0.499998L14.8938 2.64375L6.31875 11.2187L25 11.2187L25 14.2812Z"
+                  fill="#272727"
+                />
+              </svg>
+            </div>
+            <div class="swiper-button-next">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M-4.68531e-07 14.2812L18.6813 14.2812L10.1063 22.8562L12.25 25L24.5 12.75L12.25 0.499998L10.1062 2.64375L18.6813 11.2187L-6.02398e-07 11.2187L-4.68531e-07 14.2812Z"
+                  fill="#272727"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__decoretion">
+        <div class="footer__decoretion-l"></div>
+        <div class="footer__decoretion-r"></div>
+      </div>
+      <div class="footer__text">
+        <p>
+          <span
+            >Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.</span
+          >
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book. It has survived not only five centuries,
+          but also the leap into electronic typesetting, remaining.
+        </p>
+      </div>
+      <div class="footer__title">
+        <h3>More than 10 years</h3>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+
+      const swiper = new Swiper(".swiper", {
+        direction: "horizontal",
+        slidesPerView: 3,
+        loop: false,
+        spaceBetween: 40,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      const languageButtons = document.querySelectorAll(
+        ".header__language-button"
+      );
+
+      languageButtons.forEach((button) => {
+        button.addEventListener("click", (e) => {
+          const targetButton = e.target;
+          if (
+            targetButton.classList.contains("active") &&
+            targetButton.classList.contains("open")
+          ) {
+            targetButton.classList.remove("open");
+            resetButtons();
+            return;
+          }
+
+          if (targetButton.classList.contains("active")) {
+            targetButton.classList.add("open");
+            openLanguageMenu();
+            return;
+          }
+
+          if (targetButton.classList.contains("visible")) {
+            setActiveLanguage(targetButton);
+          }
+        });
+      });
+
+      function resetButtons() {
+        languageButtons.forEach((button) => {
+          if (!button.classList.contains("active")) {
+            button.style.transform = `translateY(0) scale(0.8)`;
+            button.classList.remove("visible");
+          }
+        });
+      }
+
+      function openLanguageMenu() {
+        let count = 1;
+        languageButtons.forEach((button) => {
+          if (!button.classList.contains("active")) {
+            button.style.transform = `translateY(${
+              (40 + 12) * count
+            }px) scale(0.8)`;
+            button.classList.add("visible");
+            count++;
+          }
+        });
+      }
+
+      function setActiveLanguage(newActiveButton) {
+        const currentActive = document.querySelector(
+          ".header__language-button.active"
+        );
+        if (currentActive) {
+          currentActive.classList.remove("active");
+        }
+
+        newActiveButton.classList.add("active");
+        newActiveButton.style = "";
+        newActiveButton.classList.remove("visible");
+        resetButtons();
+      }
+
+      window.addEventListener("click", (e) => {
+        if (!e.target.closest(".header__language-switcher")) {
+          languageButtons.forEach((button) => {
+            if (!button.classList.contains("active")) {
+              button.style.transform = `translateY(0) scale(0.8)`;
+              button.classList.remove("visible");
+            } else {
+              button.classList.remove("open");
+            }
+          });
+        }
+      });
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuToggle = document.querySelector(".header__menu-toggle");
+        const nav = document.querySelector(".header__nav");
+
+        menuToggle.addEventListener("click", () => {
+          menuToggle.classList.toggle("open");
+          nav.classList.toggle("open");
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const header = document.querySelector(".header");
+
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 100) {
+            header.classList.add("scrolled");
+          } else {
+            header.classList.remove("scrolled");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
